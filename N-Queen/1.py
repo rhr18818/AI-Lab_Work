@@ -46,7 +46,7 @@ def main():
     
     if solutions:
         print("First few solutions:")
-        for i, solution in enumerate(solutions[:3], 1):
+        for i, solution in enumerate(solutions[0:3], 1):
             print_solution(solution, i)
     else:
         print("No solutions found.")
